@@ -1,0 +1,21 @@
+.center {
+    margin: auto;
+    width: 35%;
+}
+
+.button1 {
+    position: relative;
+    background-color: #000000;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+   
+}
