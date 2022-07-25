@@ -1,6 +1,13 @@
 .center {
     margin: auto;
-    width: 80%;
+    width: 100%;
+ font-size: 13px;
+}
+
+
+table {
+    border: 1px solid black;
+    margin: auto;
 }
 
 .dropbtn {
@@ -44,3 +51,5 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+
