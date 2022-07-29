@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assets"
+    "\\Assets",
+    "\\Assets\\Css",
+    "\\Assets\\js"
   ],
-  "SelectedNode": "\\Cadastro.html",
+  "SelectedNode": "\\Assets\\js\\Filtro.js",
   "PreviewInSolutionExplorer": false
 }
