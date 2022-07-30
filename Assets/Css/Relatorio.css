@@ -6,3 +6,7 @@
     bottom: 0;
     left: 0;
     }
+
+hide-button{
+        visibility: hidden;
+    }
