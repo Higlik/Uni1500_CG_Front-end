@@ -8,6 +8,32 @@ body {
     font-family: Verdana;
 }
 
+#conteudo {
+    width: 100%;
+    border: solid 1px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+    #conteudo tbody tr {
+        border: solid 1px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #conteudo thead {
+        background: gray;
+    }
+
+        #conteudo thead th:nth-child(1) {
+            width: 100px;
+        }
+
+    #conteudo input {
+        color: navy;
+        width: 100%;
+    }
+
 #tabela {
     width: 100%;
     border: solid 1px;
