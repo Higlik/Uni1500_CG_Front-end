@@ -128,7 +128,7 @@
 
 
     <input type="text" id="Busca" size="20">
-    <button id="btnclick"><b><font color="black" size="3">FILTRAR</font></b></button>
+    <button id="btnclick" class="btn btn-dark"><b>FILTRAR</b></button>
 
 
     <p>
@@ -168,15 +168,15 @@
 
                     <tbody>
 
-                        <tr style="display: table-row;">
+                        <tr style="display: table-row;" id="coluna" data-index="1">
                             <td>1</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="dropbtn">...</button>
                                     <div class="dropdown-content">
                                         <a href="#">Editar</a>
-                                        <a href="#">Detalhes</a>
-                                        <a href="#">Deletar</a>
+                                        <a href="#" id="btnDuplica">Duplicar</a>
+                                        <a href="#" id="btnDeleta">Deletar</a>
                                     </div>
                                 </div>
                             </td>
@@ -202,15 +202,15 @@
                             <td>5,442</td>
                         </tr>
 
-                        <tr style="display: table-row;">
+                        <tr style="display: table-row;" id="coluna" data-index="2">
                             <td>2</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="dropbtn">...</button>
                                     <div class="dropdown-content">
                                         <a href="#">Editar</a>
-                                        <a href="#">Detalhes</a>
-                                        <a href="#">Deletar</a>
+                                        <a href="#" id="btnDuplica">Duplicar</a>
+                                        <a href="#" id="btnDeleta">Deletar</a>
                                     </div>
                                 </div>
                             </td>
@@ -236,15 +236,15 @@
                             <td>5,442</td>
                         </tr>
 
-                        <tr style="display: table-row;">
+                        <tr style="display: table-row;" id="coluna" data-index="3">
                             <td>3</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="dropbtn">...</button>
                                     <div class="dropdown-content">
                                         <a href="#">Editar</a>
-                                        <a href="#">Detalhes</a>
-                                        <a href="#">Deletar</a>
+                                        <a href="#" id="btnDuplica">Duplicar</a>
+                                        <a href="#" id="btnDeleta">Deletar</a>
                                     </div>
                                 </div>
                             </td>
@@ -291,6 +291,7 @@
 
     <script src="/caminho/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="Assets/js/Filtro.js"></script>
-
+    <script type="text/javascript" src="Assets/js/Duplicar.js"></script>
+    <script type="text/javascript" src="Assets/js/Deletar.js"></script>
 </body>
 </html>
