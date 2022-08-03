@@ -1,16 +1,15 @@
 ﻿
 
+function duplicateRows(elemento) { 
 
-document.getElementById("btnDuplica").addEventListener("click", addRows);
 
-function addRows() { 
-
-	const node = document.getElementById("coluna");
-	const clone = node.cloneNode(true);
-	document.body.appendChild(clone);
-
+	var linha = elemento.closest('tr');
+	const tbody = document.getElementById('tbodyListagem');
 
 	
-	
+	const clone = linha.cloneNode(true);
+	tbody.appendChild(clone);
+
+
 }
 
